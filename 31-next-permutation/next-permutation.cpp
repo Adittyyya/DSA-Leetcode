@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void nextPermutation(vector<int>& A) {
+    void nextPermutation(vector<int>& A) { //Time Complexity => O(n)
         //finding pivot
         int n = A.size();
         int piv=-1;
